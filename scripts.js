@@ -3,7 +3,7 @@ function hideElement(event) {
 
     element.style.display = "none"
 
-    document.body.style.overflow = ""
+    document.body.style.overflow = "auto"
     document.removeEventListener("click", hideElement)
     document.removeEventListener("mouseover", addBorder)
     document.removeEventListener("mouseout", removeBorder)
