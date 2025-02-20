@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Extension-Chrome",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Extensión para modificar el DOM de cualquier sitio web.",
     "icons": {
         "48": "icons/logo.png"
@@ -14,7 +14,8 @@
         {
             "matches": ["https://*.ed.team/*"],
             "css": ["styles.css"],
-            "js": ["scripts.js"]
+            "js": ["modal.js","scripts.js"]
         }
-    ]   
+    ],
+    "permissions": ["activeTab", "scripting"]
 }

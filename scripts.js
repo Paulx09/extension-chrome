@@ -2,6 +2,11 @@ function hideElement(event) {
     const element = event.target
 
     element.style.display = "none"
+
+    document.body.style.overflow = ""
+    document.removeEventListener("click", hideElement)
+    document.removeEventListener("mouseover", addBorder)
+    document.removeEventListener("mouseout", removeBorder)
 }
 
 function addBorder(event) {
