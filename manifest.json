@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Extension-Chrome",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Extensión para modificar el DOM de cualquier sitio web.",
     "icons": {
         "48": "icons/logo.png"
